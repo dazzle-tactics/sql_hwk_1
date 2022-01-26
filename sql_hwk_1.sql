@@ -7,7 +7,7 @@ UPDATE people SET name = 'Krusty the Clown' WHERE name = 'Crusty the Clown';
 -- 4. Return 'Homer's name ONLY
 SELECT name FROM people WHERE id=1;
 -- 5.Delete 'Batman Begins'
-DELETE FROM movies where title = 'Batman Begins';
+DELETE FROM movies WHERE title = 'Batman Begins';
 -- 6. Add Bart Simpson to the characters
 INSERT INTO people(name) VALUES('Bart Simpson');
 -- 7.Remove Eric Cartman from the 'people' table
